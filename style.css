@@ -1,0 +1,21 @@
+.bannerbgimage {
+    height: 100vh;
+    background:url("/images/bannerimage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: Right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
